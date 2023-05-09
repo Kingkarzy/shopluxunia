@@ -94,7 +94,7 @@ function CartPage() {
     
     //FLUTTERWAVE PAYMENT 
        const config = {
-        public_key: process.env.FLW_PUBLIC_KEY ?? "FLWPUBK_TEST-bef33f43394a34d5aff109965b84312f-X",
+        public_key: process.env.FLW_PUBLIC_KEY ?? "FLW*******",
         tx_ref: Date.now(),
         amount: total ?? 0,
         currency: 'NGN',
