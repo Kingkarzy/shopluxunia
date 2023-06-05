@@ -5,7 +5,7 @@ import clientPromise from "../../../lib/mongodb"
 import EmailProvider from "next-auth/providers/email";
 import { getServerSession } from "next-auth";
 
-const adminEmails = ['kamachukwuma36@gmail.com']
+const adminEmails = ['****6@gmail.com']
 
 export const authOptions = {
   // Configure one or more authentication providers
